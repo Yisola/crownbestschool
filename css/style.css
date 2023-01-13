@@ -860,8 +860,11 @@ html{
      display: block;
      position: relative;
      overflow: hidden;
+     height: 350px;
+     width: 350px;
      border-radius: 50%;
      box-shadow:6px 6px 0px rgba(103, 102, 102, 0.2);
+     
 }
  .scrollimation .gallery-thumb {
      transform: translateY(100px);
