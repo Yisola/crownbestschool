@@ -784,8 +784,12 @@ html{
      position: relative;
 }
  .team-item img {
-     padding:10px;
+     /* padding:10px; */
      max-width: 100%;
+     height: 100%;
+     /* width: 100%; */
+     object-fit: cover;
+     aspect-ratio: 1 / 1;
      border-radius:50%;
      box-shadow: 6px 6px 0px rgba(103, 102, 102, 0.2);
      transition: all 0.3s;
@@ -800,11 +804,25 @@ html{
      text-align:center;
      border-radius: 20px;
 }
- .team-item .team-caption h4, .team-item .team-caption p {
+ .team-item .team-caption h3 {
      margin: 0;
      color: #fff !important;
      font-weight:700;
      padding:0px;
+     font-size: 21px;
+}
+.team-item .team-caption h6 {
+    font-size: 12px;
+    font-weight:700;
+    margin: 0px;
+    color: #fff !important;
+    text-transform:none;
+}
+.team-item .team-caption p {
+    font-size: 15px;
+    font-weight:700;
+    color: #fff !important;
+    line-height: 22px;
 }
  .team-item:hover img {
     border:10px solid
@@ -1274,7 +1292,7 @@ html{
 }
 /*=========================== Call to Action ============================ */
  #call-to-action{
-     background-image: url(../img/calltoactionbg.jpg);
+     background-image: url(../img/grad5.jpeg);
      background-size:cover;
      background-position:center center;
      background-attachment: fixed;
@@ -3028,6 +3046,6 @@ html{
         font-size:14px;
         text-transform:uppercase;
     }
-}
+
  
  
